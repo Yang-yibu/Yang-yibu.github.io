@@ -386,6 +386,28 @@ a:hover, a:active
 	color: #ffd485;
 	text-decoration: none;
 }
+/*some features*/
+i.fa-lap:before{
+	content: "PS";
+}
+i.fa-lapt:before{
+	content: "AI";
+}
+i.fa-laptop:before{
+	content: "HTML";
+}
+i.fa-cog:before{
+	content: "CSS3";
+}
+i.fa-font:before{
+	content: "js";
+}
+i.fa-user:before{
+	content: "数据库";
+}
+
+/* end */
+
 /* end templatemo contact */
 
 /* start templatemo footer */
@@ -479,3 +501,4 @@ footer .social_icon a:hover
 	}
 }
 /* end templatemo 600 media quires */
+
