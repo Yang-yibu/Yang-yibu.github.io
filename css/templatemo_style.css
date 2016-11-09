@@ -297,15 +297,22 @@ body
 	height: 100%;
 	opacity: 0;
 	position: absolute;
-	-webkit-transition: all 0.3s ease-in;
-	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	/*padding-top: 46px;*/
 	text-align: center;
+
+	transform: translateX(110%) rotate(360deg) scale(0.2);
+
 }
-#portfolio .image_thumb:hover .image_overlay { opacity: 0.9; }
+#portfolio .image_thumb:hover .image_overlay {
+ 	opacity: 0.9; 
+	transform: translateX(0) rotate(0) scale(1);
+
+}
 #portfolio .image_thumb .image_overlay .fa
 {
 	background: #EEE;
